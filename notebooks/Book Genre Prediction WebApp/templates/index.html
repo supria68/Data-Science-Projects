@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Predict a Book's Genre from it's Title</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    </head>
+
+    <body>
+
+        <!-- Website Title -->
+    	<div class="container">
+            <h2 class='container-heading'><span class="heading_font">Predict a Book's Genre from it's Title</span></h2>
+            <div class='description'>
+    			<p>Data Science Portfolio Project</p>
+    		</div>
+    	</div>
+
+        <!-- Text Area -->
+    	<div class="ml-container">
+    		<form action="{{ url_for('predict') }}" method="POST">
+        		<textarea class='message-box' name="message" rows="10" cols="30" placeholder="Enter the book's title here..."></textarea><br/>
+        		<br><br><button id="sub" type="submit ">Predict</button>
+            <br>
+        	</form>
+
+          <br><br><h3>{{ prediction_texts }}<h3>
+    	</div>
+
+        <!-- Footer -->
+        <div class='footer'>
+            <div class="contact">
+                <a target="_blank" href="https://github.com/supria68/Data-Science-Projects/tree/master/notebooks/Book%20Genre%20Classification"><i class="fab fa-github fa-lg contact-icon"></i></a>
+            </div>
+            <p class='footer-description'>Happy Learning :) ~Supria.</p>
+        </div>
+
+    </body>
+</html>
