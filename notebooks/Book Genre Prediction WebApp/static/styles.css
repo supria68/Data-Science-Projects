@@ -4,7 +4,7 @@ html{
 }
 
 body{
-	font-family: Arial, Helvetica,sans-serif;
+	font-family: Arial;
     text-align: center;
     margin: 0;
 }
@@ -29,13 +29,9 @@ body{
 	}
 }
 
-.container-heading{
-    margin: 0;
-}
 
 .heading_font{
     color: #5530B4;
-	font-family: 'Yatra One', cursive;
 	font-size: 27px;
 }
 
@@ -48,7 +44,7 @@ body{
 /* Text Area */
 .ml-container{
     margin: 30px 0;
-	flex: 1 0 auto;
+	  flex: 1 0 auto;
 }
 
 .message-box{
@@ -59,10 +55,10 @@ body{
 /* Footer */
 .footer{
     font-size: 14px;
-	padding: 20px;
-	position: relative;
-	background: linear-gradient(45deg, #ffffff, #ffffff, #f9f9f9, #eeeeee, #e0e4e1, #d7e1ec);
-	background-size: 500% 500%;
-	animation: change-gradient 10s ease-in-out infinite;
+	  padding: 20px;
+	  position: relative;
+	  background: linear-gradient(45deg, #ffffff, #ffffff, #f9f9f9, #eeeeee, #e0e4e1, #d7e1ec);
+	  background-size: 500% 500%;
+	  animation: change-gradient 10s ease-in-out infinite;
 }
 
