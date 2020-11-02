@@ -1,0 +1,95 @@
+html{
+	height: 100%;
+	margin: 0;
+}
+	body {
+            background: floralwhite;
+            color: midnightblue;
+            font-family: Arial;
+            text-align: center;
+            padding: 0px;
+        }
+
+  
+  .description p{
+      font-style: italic;
+      font-size: 14px;
+      margin: 3px 0 0;
+    }
+
+  .option-1{
+    display: flex;  
+    justify-content: center;  
+    padding-block: 40px;  
+    column-gap: 20px;
+  
+    #dropdown {
+            
+            width: 220px;
+            height: 35px;
+            text-align: center;
+            border-radius: 10px;
+            font-size: 18px;
+        }
+     #normal {
+            border-radius: 10px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+   
+   .option-2{
+    display: flex;  
+    justify-content: center;  
+    padding-block: 20px; 
+    column-gap: 20px;
+    
+    #fuel {
+            
+            width: 83px;
+            height: 43px;
+            text-align: center;
+            border-radius: 10px;
+            font-size: 18px;
+        }
+        
+                
+        #vt {
+            width: 99px;
+            height: 43px;
+            text-align: center;
+            border-radius: 10px;
+            font-size: 18px;
+        }
+
+    }
+  
+        #sub {
+            padding: 10px; 
+            width: 300px;
+            height: 60px;
+            text-align: center;
+            border-radius: 10px;
+            font-size: 15px;
+            color: darkslateblue;
+        }
+
+       .footer{
+          font-style: italic;
+          font-size: 10px;
+          position: relative;
+          color: black;
+          padding: 20px;
+       }         
+         
+  .contact-icon{
+	  color: #000000;
+	  padding: 7px;
+  }
+
+
+  .contact-icon:hover{
+	  color: #8c8c8c;
+  }
+

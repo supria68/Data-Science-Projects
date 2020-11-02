@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Predictive Analysis</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+
+<body>
+
+        <form action="{{ url_for('predict')}}" method="post">
+          <div class = "container">
+            <h1><b>Used Car Price Prediction</b></h1>
+              <div class='description'>
+                 <p>This Web application is used to predict the price of used cars in Germany</p>
+            </div>
+          </div>
+          <div class = "option-1">
+            <h3>GearBox</h3><br><select name="Gearbox" id="dropdown" required="required">
+                <option value="Manual">Manual Car</option>
+                <option value="Automatic">Automatic Car</option>
+            </select>
+            <h3>Mileage Driven (Kms)</h3><input id="normal" name="Kms_driven" required="required">
+            <h3>Registration Year</h3><input id="normal" name="Year" type="number ">
+          </div>
+          <div class = "option-2">
+            <h3>Fuel type</h3><br><select name="Fuel_Type" id="fuel" required="required">
+                <option value="Petrol">Petrol</option>
+                <option value="Diesel">Diesel</option>
+                <option value="Electric">Electric</option>
+                <option value="Hybrid">Hybrid</option>
+                <option value="lpg">lpg</option>
+                <option value="Other">other</option>
+            </select>
+            <h3>Vehical type</h3><br><select name="Vehical_Type" id="vt" required="required">
+                <option value="limousine">limousine</option>
+                <option value="Coupe">Coupe</option>
+                <option value="Convertible">Convertible</option>
+                <option value="Small car">Small car</option>
+                <option value="SUV">SUV</option>
+                <option value="Other">Other</option>
+            </select>
+
+             </div>
+
+             <br><br><button id="sub" type="submit "><b>Calculate my buying or selling price</b></button>
+            <br>
+
+        </form>
+
+
+        <br><br><h3>{{ prediction_text }}<h3>
+            <!-- Footer -->
+        <div class='footer'>
+          <div class="contact">
+                <a target="_blank" href="https://github.com/supria68"><i class="fa fa-github" style="font-size:24px"></i></a>
+                <a target="_blank"
+                  href="https://www.linkedin.com/in/supriyasudarshan"><i class="fab fa-linkedin" style="font-size:24px"></i></a>
+            </div>
+          <p class='footer-description'>A Data Science Portfolio Project by Supriya Sudarshan.</p>
+        </div>
+  </body>
+</html>
