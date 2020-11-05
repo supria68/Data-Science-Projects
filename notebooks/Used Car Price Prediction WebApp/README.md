@@ -1,6 +1,6 @@
 # WebApp for Predicting the Price of Used Cars
 
-This repository consists of files required to create and deploy a machine learning model as a WebApp using Flask for predicting price of used cars in Germany.
+This repository consists of files required to create and deploy a machine learning model as a WebApp using Flask for predicting the price of used cars in Germany.
 
 ### Dataset:
 Data is scrapped from eBay Kleinanzeigen, a classifieds section of the German eBay website. For privacy reasons, it isn't uploaded here. However, the repo contains a cleaned copy of the dataset (removing all personal information).
@@ -9,10 +9,10 @@ Data is scrapped from eBay Kleinanzeigen, a classifieds section of the German eB
 Here are the following steps taken into consideration in developing the prediction model. Refer [ML_pipeline.ipynb](ML_pipline.ipynb) for step by step explanation.
 1. Data cleaning - Handling missing values by imputations and performing outlier detection using Inter Quantile Range method  
 2. Data Visualization - categorical EDAs  
-[!Screenshot](readme_resource/categorical_eda.png)   
+![Screenshot](readme_resource/categorical_eda.png)   
 3. Feature Engineering - Categorical encoding, feature importance and selection  
 4. Model Selection - Comparing different regressor models and choosing the best one with the least RMSE and highest r2 score  
-[!Screenshot](readme_resource/models.png)  
+![Screenshot](readme_resource/models.png)  
 5. Hyperparameter tuning and Optimization for Random Forest Regressor  
 6. Car price prediction and evaluation  
 
@@ -34,7 +34,7 @@ Here are the following steps taken into consideration in developing the predicti
 
 ### TestApp:
 
-[!Screenshot](readme_resource/how_to_use.gif)
+![Screenshot](readme_resource/how_to_use.gif)
   
 
 
