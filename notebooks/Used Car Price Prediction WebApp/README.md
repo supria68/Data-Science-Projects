@@ -34,8 +34,9 @@ Here are the following steps taken into consideration in developing the predicti
 
 ### TestApp:
 
-![Screenshot](readme_resource/how_to_use.gif)
-  
+![Screenshot](readme_resource/how_to_use.gif)  
+
+#### That's all! Happy Learning :)  
 
 
 
