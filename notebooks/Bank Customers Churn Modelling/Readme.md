@@ -2,12 +2,12 @@
 
 This repository consists of codes to build 
 - a Neural Network to predict whether an existing customer leaves or stays at the bank
-- a WebAPI for the above model using FastAPI
+- a WebAPI for the above model using FastAPI  
 
 ### Dataset:
 The dataset is taken from Kaggle and contains details of a bank's customers (around 10000 rows) with a binary target reflecting whether the customer leaves the bank (closes account) or continues to be a customer.  
   
-![Screenshot](/readme_resources/TargetDistribution.png)
+![Screenshot](readme_resources/TargetDistribution.png)  
 As seen from the above plot, Target is unbalanced. This issue is taken care while training the neural network by assigning class weights.
 
 ### Files:
