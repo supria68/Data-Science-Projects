@@ -30,17 +30,19 @@ As seen from the above plot, Target is unbalanced. This issue is taken care whil
 Artificial Neural Network (ANN) has an accuracy of 81%.  
   
 ![Metrics](readme_resources/metrics.png)  
-Eventhough the dataset was imbalanced, recall proves equal percentages for both the cases.  
+Eventhough the dataset is imbalanced, recall proves equal percentages for both the cases.  
     
-FastAPI Layout:  
+###### FastAPI Layout:  
 ![Screenshot](readme_resources/Layout.png)
   
 Considering 2 cases from the dataset, ANN model provides the right prediction!
+###### Case 1:   
 ![TrueCase](readme_resources/TrueCase.png)  
   
+###### Case 2:  
 ![FalseCase](readme_resources/FalseCase.png)  
   
 ### References:
 [1] [Churn Modelling](https://www.kdnuggets.com/2017/03/datascience-customer-churn-modeling.html)  
-[2] [FastAPI Documentation] (https://fastapi.tiangolo.com/)  
+[2] [FastAPI Documentation](https://fastapi.tiangolo.com/)  
 
