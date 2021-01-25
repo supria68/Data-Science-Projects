@@ -27,5 +27,5 @@ Here's how the books are classified in this dataset:
 ### TestApp:
 Machine Learning model has an accuracy of 63%  
   
-![Screenshot](readme_resources/how_to_use.gif)
+![Screenshot](readme_resources/how-to-use.gif)
 
