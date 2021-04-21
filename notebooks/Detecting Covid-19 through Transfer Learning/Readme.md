@@ -27,18 +27,18 @@ Only the best model (VGG19) is implemented using transfer learning for 3 out of 
 With VGG19(base model) - Flatten - FC(16-64, relu) - Dropout(0.1-0.2) - Output(2, softmax)  
 
 - Chest X-ray Covid Vs Normal Images  
-![Learning-curve-xray](readme_resources/Chest_X-ray.png)  
+![Learning-curve-xray](readme_resources/chest_xray.png)  
 ![Confusion-matrix](readme_resources/confusion_chestxray.png)   
 ![report](readme_resources/chestxray_report.png)  
   
 - Chest CT Covid Vs Non-Covid Images  
-![Learning-curve](readme_resources/chest\ ct.png)   
-![Confusion-matrix](readme_resources/confusion\ CT.png)    
+![Learning-curve](readme_resources/chest_ct.png)   
+![Confusion-matrix](readme_resources/confusion_CT.png)    
 ![report](readme_resources/CT_report.png)  
   
 - Ultrasound Images Covid Vs Normal Images  
 ![Learning-curve](readme_resources/ultrasound.png)   
-![Confusion-matrix](readme_resources/confusion\ ultrasound.png)    
+![Confusion-matrix](readme_resources/confusion_ultrasound.png)    
 ![report](readme_resources/ultrasound_report.png)  
   
 ### Testing
