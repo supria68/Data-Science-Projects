@@ -11,8 +11,12 @@
   
 This repository consists of several machine learning projects built and deployed using Flask, FastAPI.  
 
+- [Detecting Covid-19 through Transfer Learning](/notebooks/Detecting%20Covid-19%20through%20Transfer%20Learning)
 - [Building an API for Bank Customer Churn Prediction using ANN and FastAPI](/notebooks/Bank%20Customers%20Churn%20Modelling)  
 - [Plagiarism Checker using NLTK and Cosine Similarity](/notebooks/Plagiarism%20Checker)  
 - [WebApp for Predicting the Price of Used Cars in Germany](/notebooks/Used%20Car%20Price%20Prediction%20WebApp)  
 - [WebApp for Predicting a Book's Genre from its Title](/notebooks/Book%20Genre%20Prediction%20WebApp)  
 - [Sentiment Analysis on Large IMDB Movie Reviews](/notebooks/Sentiment%20Analysis%20on%20Large%20IMDB%20Reviews)  
+  
+Mini Projects  
+- [Forex Forecasting (Ind/Eur) using ARIMA](/notebooks/mini_projects/Forecasting%20Forex%20using%20Arima)
