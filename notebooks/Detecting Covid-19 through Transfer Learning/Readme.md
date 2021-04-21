@@ -28,19 +28,19 @@ With VGG19(base model) - Flatten - FC(16-64, relu) - Dropout(0.1-0.2) - Output(2
 
 ##### Chest X-ray Covid Vs Normal Images  
 ![Learning-curve-xray](readme_resources/chest_xray.png) ![Confusion-matrix](readme_resources/confusion_chestxray.png)  
-<p align="center">
+<p align="left">
   <img src="readme_resources/chestxray_report.png" />
 </p>
   
 ##### Chest CT Covid Vs Non-Covid Images  
 ![Learning-curve](readme_resources/chest_ct.png) ![Confusion-matrix](readme_resources/confusion_CT.png)    
-<p align="center">
+<p align="left">
   <img src="readme_resources/CT_report.png" />
 </p>
   
 ##### Ultrasound Images Covid Vs Normal Images  
 ![Learning-curve](readme_resources/ultrasound.png) ![Confusion-matrix](readme_resources/confusion_ultrasound.png)    
-<p align="center">
+<p align="left">
   <img src="readme_resources/ultrasound_report.png" />
 </p>
   
