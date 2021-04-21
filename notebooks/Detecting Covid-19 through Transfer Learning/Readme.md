@@ -26,26 +26,28 @@ Only the best model (VGG19) is implemented using transfer learning for 3 out of 
 ### Results
 With VGG19(base model) - Flatten - FC(16-64, relu) - Dropout(0.1-0.2) - Output(2, softmax)  
 
-- Chest X-ray Covid Vs Normal Images  
-![Learning-curve-xray](readme_resources/chest_xray.png)  
-![Confusion-matrix](readme_resources/confusion_chestxray.png)   
-![report](readme_resources/chestxray_report.png)  
+##### Chest X-ray Covid Vs Normal Images  
+![Learning-curve-xray](readme_resources/chest_xray.png) ![Confusion-matrix](readme_resources/confusion_chestxray.png)  
+<p align="center">
+  <img src="readme_resources/chestxray_report.png" />
+</p>
   
-- Chest CT Covid Vs Non-Covid Images  
-![Learning-curve](readme_resources/chest_ct.png)   
-![Confusion-matrix](readme_resources/confusion_CT.png)    
-![report](readme_resources/CT_report.png)  
+##### Chest CT Covid Vs Non-Covid Images  
+![Learning-curve](readme_resources/chest_ct.png) ![Confusion-matrix](readme_resources/confusion_CT.png)    
+<p align="center">
+  <img src="readme_resources/CT_report.png" />
+</p>
   
-- Ultrasound Images Covid Vs Normal Images  
-![Learning-curve](readme_resources/ultrasound.png)   
-![Confusion-matrix](readme_resources/confusion_ultrasound.png)    
-![report](readme_resources/ultrasound_report.png)  
+##### Ultrasound Images Covid Vs Normal Images  
+![Learning-curve](readme_resources/ultrasound.png) ![Confusion-matrix](readme_resources/confusion_ultrasound.png)    
+<p align="center">
+  <img src="readme_resources/ultrasound_report.png" />
+</p>
   
 ### Testing
-Executing [test_file](src/test.py) results in accurate predictions  
-![res1](readme_resources/xray_result.png)  
-![res2](readme_resources/CT_result.png)  
-![res3](readme_resources/Ultrasound_result.png)  
-  
+Executing [test_file](src/test.py), results in accurate predictions  
+![res3](readme_resources/Ultrasound_result.png) ![res2](readme_resources/CT_result.png)  
+![res1](readme_resources/xray_result.png)
+
 ### Conclusion
 This project focused on implementing a deep learning model (vgg19) using transfer learning for Covid-19 detection in multimodal medical images as described in the research paper. All experiment results are validated against the paper findings.
